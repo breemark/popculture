@@ -32,6 +32,9 @@
                 </header>
             @endif
 
+            <!-- Page Sidebar -->
+            <x-dashboard-sidebar/>
+            
             <!-- Page Content -->
             <main>
                 {{ $slot }}
